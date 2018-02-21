@@ -14,9 +14,9 @@ public abstract class GamePieceBase : ScriptableObject {
 
 	public abstract void StartMove();
 
-	public abstract void MovePiece();
+	//public abstract void MovePiece();
 
-	public abstract void EndPiece();
+	//public abstract void EndPiece();
 
 	//Functions
 	//Move Function
