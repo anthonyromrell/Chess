@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [CreateAssetMenu(fileName = "GameBoard")]
-public class GameBoardBase : ScriptableObject {
+public class GameBoardBase : ScriptableObject
+{
 
-	//Detect Piece Interactions
-	//Piece Location
-	//Holds Pieces
+	private void PrintThis()
+	{
+		Debug.Log("Cool");
+	}
+
+
 	public Transform CurrentPiecePosition;
 	public Transform PieceReposition;
 

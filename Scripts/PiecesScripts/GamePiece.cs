@@ -10,7 +10,8 @@ public class GamePiece : GamePieceBase {
 
 	public override void StartMove()
 	{
-		MovePattern.SetActive(true);
+		//MovePattern.SetActive(true);
+		Debug.Log("Game Piece");
 	}
 
 }
