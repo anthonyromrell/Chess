@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Events;
+﻿using UnityEngine;
 
 [CreateAssetMenu(fileName = "GameBoard")]
 public class GameBoardBase : ScriptableObject

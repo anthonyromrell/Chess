@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using RoboRyanTron.Unite2017.Events;
+﻿using RoboRyanTron.Unite2017.Events;
 using UnityEngine;
 
 [CreateAssetMenu]
